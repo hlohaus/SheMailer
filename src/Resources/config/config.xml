@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/master/src/Core/System/SystemConfig/Schema/config.xsd">
+
+    <card>
+        <title>S:HE Mailer</title>
+        <title lang="de-DE">S:HE Mailer</title>
+        <input-field>
+            <name>replyToAddress</name>
+            <label>Reply to</label>
+            <placeholder>reply-to@she-business.com</placeholder>
+            <label lang="de-DE">Antwort-Adresse</label>
+            <helpText>An email address that should be used as the reply address for emails.</helpText>
+            <helpText lang="de-DE">Eine E-Mail-Adresse, die bei E-Mails als Antwort-Adresse genommen werden soll.</helpText>
+        </input-field>
+        <input-field>
+            <name>returnPath</name>
+            <label>Return path</label>
+            <placeholder>return@she-business.com</placeholder>
+            <label lang="de-DE">„Wenn unzustellbar zurück an“</label>
+            <helpText>Which address should be set as "Return Path"?</helpText>
+            <helpText lang="de-DE">Welche Adresse soll als „Return-Path“ gesetzt werden?</helpText>
+        </input-field>
+        <input-field type="textarea">
+            <name>bccAddress</name>
+            <label>BCC addresses</label>
+            <placeholder>support@she-business.com
+post@she-business.com</placeholder>
+            <label lang="de-DE">BCC-Adressen</label>
+            <helpText>Email addresses to which all e-mails should be sent as blind copy.</helpText>
+            <helpText lang="de-DE">E-Mail-Adressen an die alle E-Mails als Blindkopie gesendet werden soll.</helpText>
+        </input-field>
+        <input-field type="textarea">
+            <name>deliveryAddress</name>
+            <label>Redirection addresses</label>
+            <placeholder>support@she-business.com
+post@she-business.com</placeholder>
+            <label lang="de-DE">Umleitungsadressen</label>
+            <helpText>Email addresses to which ALL e-mails should be sent.</helpText>
+            <helpText lang="de-DE">E-Mail-Adressen, an die ALLE E-Mails gesendet werden sollen.</helpText>
+        </input-field>
+        <input-field>
+            <name>deliveryWhitelist</name>
+            <label>Redirection whitelist</label>
+            <placeholder>/@shopware\.com$|\.shopware\.com$/</placeholder>
+            <label lang="de-DE">Ausnahmen von der Umleitung</label>
+            <helpText>It expects a PCRE search pattern.</helpText>
+            <helpText lang="de-DE">Es erwartet ein PCRE-Suchmuster.</helpText>
+        </input-field>
+    </card>
+</config>
