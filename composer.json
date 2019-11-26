@@ -6,7 +6,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "S.HE Business GmbH"
+            "name": "S.HE Business GmbH",
+            "homepage": "https://she-business.com/"
         }
     ],
     "require": {
@@ -16,7 +17,7 @@
     "extra": {
         "shopware-plugin-class": "She\\Mailer\\SheMailer",
         "label": {
-            "de-DE": "S:HE Mailer",
+            "de-DE": "S.HE Mailer",
             "en-GB": "S.HE Mailer"
         },
         "description": {
