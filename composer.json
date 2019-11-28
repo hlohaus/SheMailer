@@ -1,6 +1,6 @@
 {
     "name": "she/mailer",
-    "description": "S:HE Mailer",
+    "description": "S.HE Mailer",
     "version": "v1.0.0",
     "type": "shopware-platform-plugin",
     "license": "MIT",

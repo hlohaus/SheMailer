@@ -3,7 +3,7 @@
         xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/master/src/Core/System/SystemConfig/Schema/config.xsd">
 
     <card>
-        <title>S:HE Mailer</title>
+        <title>S.HE Mailer</title>
         <title lang="de-DE">S:HE Mailer</title>
         <input-field>
             <name>replyToAddress</name>
