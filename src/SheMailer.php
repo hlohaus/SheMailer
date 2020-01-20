@@ -19,7 +19,7 @@ class SheMailer extends Plugin implements CompilerPassInterface
 
     public function process(ContainerBuilder $container)
     {
-        if ($container->has('core_mailer')) {
+        if ($container->hasDefinition('core_mailer')) {
             $container->getDefinition('core_mailer')->addMethodCall('registerPlugin', [
                 new Reference(ConfigListener::class)
             ])->addMethodCall('registerPlugin', [
